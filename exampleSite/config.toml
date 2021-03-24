@@ -2,27 +2,39 @@ baseURL = "https://hugo-untuk-profile.netlify.app/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "pemro-kross-hugo"
-title = "Kross"
+title = "Lab Pemrograman"
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 1
+weight = 2
+[[menu.main]]
+URL = "portfolio"
+name = "Portfolio"
+weight = 3
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
 [params]
-address = "125/A, CA Commercial Area, California, USA"
-author = "Johnathan Smith"
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-description = "This is meta description"
-email = "steve.fruits@email.com"
+address = "Kampus Tegalboto, Jl. Kalimantan No.37, Krajan Timur, Sumbersari, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68121"
+author = "Lab Pemrograman"
+copyright = "Copyright &copy; 2021 a theme by [Lab Pemrograman](https://gethugothemes.com)"
+description = "Modifikasi dari kross-hugo"
+email = "pemro@cs.unej.ac.id"
 google_analytics_id = ""
 home = "Home"
 logo = ""
-phone = "+880 2544 658 256"
-theme_color = "#41228e"
+phone = "+62 331 326911"
+theme_color = "#292940"
 [params.contact]
-enable = true
+enable = false
 form_action = "#"
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 [params.map]
 enable = true
@@ -50,10 +62,13 @@ link = "plugins/google-map/map.js"
 enable = true
 preloader = "images/preloader.gif"
 [[params.social]]
+URL = "https://pemro.id/discord"
+icon = "ti-discord"
+[[params.social]]
 URL = "#"
 icon = "ti-facebook"
 [[params.social]]
-URL = "#"
+URL = "https://instagram.com/pemroilkom_unej"
 icon = "ti-instagram"
 [[params.social]]
 URL = "#"
