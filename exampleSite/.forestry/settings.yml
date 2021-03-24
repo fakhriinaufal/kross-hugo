@@ -8,23 +8,9 @@ sections:
   label: Blog Post
 - type: directory
   path: exampleSite/content
-  label: My Post
+  label: Content
   create: all
   match: "**/*"
-- type: directory
-  path: exampleSite/content/blog
-  label: Post
-  create: all
-  match: "**/*"
-- type: heading
-  label: Author
-- type: directory
-  path: exampleSite/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
 - type: heading
   label: Data
 - type: directory
