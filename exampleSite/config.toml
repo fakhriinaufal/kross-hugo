@@ -1,7 +1,7 @@
 baseURL = "https://hugo-untuk-profile.netlify.app/"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "kross-hugo"
+theme = "pemro-kross-hugo"
 title = "Kross"
 [[menu.main]]
 URL = "about"
