@@ -4,21 +4,9 @@ summaryLength = "10"
 theme = "pemro-kross-hugo"
 title = "Lab Pemrograman"
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
-[[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 2
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 3
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
 [params]
 address = "Kampus Tegalboto, Jl. Kalimantan No.37, Krajan Timur, Sumbersari, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68121"
 author = "Lab Pemrograman"
